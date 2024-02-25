@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="outros.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="page-2-removebg-preview.png">
+        <meta name="author" content="Rikelme">
+        <meta name="description" content="Conheça a belíssima mitologia nórdica e seus principais Deuses">
+    <title>Norse mythology</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="iconcnt1.webp" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <div class="nav-list-pc">
+                    <div class="nav-item"><a href="index.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Home</a></div>
+                    <div class="nav-item"><a href="origem.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Origin</a></div>
+                    <div class="nav-item"><a href="ambient.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Worlds</a></div>
+                    <div class="nav-item"><a href="ragnarok.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Ragnarök</a></div>
+                    <div class="nav-item" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
+                        <a class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Gods</a>
+                        <div class="dropdown-menu" style="  position: absolute;
+                        margin-top: 2px;
+                        background-color: #203E5F;
+                        display: none;
+                        border-radius: 20px;
+                        font-size: 0.92em;
+                        border: solid 1px #203E5F;">
+                            <a href="deuses.html">Gods</a>
+                            <a href="thor.html">Thor</a>
+                            <a href="freya.html">Freya</a>
+                            <a href="loki.html">Loki</a>
+                            <a href="odin.html">Odin</a>
+                            <a href="tyr.html">Tyr</a>
+                            <a href="Frey.html">Frey</a>
+                            <a href="Baldur.html">Baldur</a>
+                            <a href="Mimir.html">Mímir</a>
+                            <a href="heimdall.html">Heimdall</a>
+                            <a href="Frigga.html">Frigga</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" onmouseover="showDropdown2()" onmouseout="hideDropdown2()" onclick="toggleDropdown2()">
+                        <a class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Other characters</a>
+                        <div class="dropdown-menu2">
+                            <a href="outros.html">Other characters</a>
+                            <a href="cobra.html">Jormungand</a>
+                            <a href="Ymir.html">Ymir</a>
+                            <a href="Audhumla.html">Audhumla</a>
+                            <a href="Fenrir.html">Fenrir</a>
+                            <a href="Nidhogg.html">Nidhogg</a>
+                            <a href="corvos.html">Huginn and Muninn</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" onmouseover="showDropdown3()" onmouseout="hideDropdown3()" onclick="toggleDropdown3()">
+                        <a class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Weapons</a>
+                            <div class="dropdown-menu3">
+                                <a href="armas.html">Weapons</a>
+                                <a href="mjonir.html">Mjonir</a>
+                                <a href="Laevateinn.html">Laevateinn</a>
+                                <a href="gram.html">Gram</a>
+                                <a href="hofund.html">Hofund</a>
+                                <a href="angurvadal.html">Angurvadal</a>
+                            </div>
+                    </div>
+                    <div class="nav-item"><a href="contato.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Contact</a></div>
+                </div>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="nav-list-pc">
+                    <div class="nav-item"><a href="index.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Home</a></div>
+                    <div class="nav-item"><a href="origem.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Origin</a></div>
+                    <div class="nav-item"><a href="ambient.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Worlds</a></div>
+                    <div class="nav-item"><a href="ragnarok.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Ragnarök</a></div>
+                    <div class="nav-item" >
+                        <a class="nav-link" onclick="toggleDropdown4()" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Gods</a>
+                        <div class="dropdown-menu4">
+                            <a href="deuses.html">Gods</a>
+                            <a href="thor.html">Thor</a>
+                            <a href="freya.html">Freya</a>
+                            <a href="loki.html">Loki</a>
+                            <a href="odin.html">Odin</a>
+                            <a href="tyr.html">Tyr</a>
+                            <a href="Frey.html">Frey</a>
+                            <a href="Baldur.html">Baldur</a>
+                            <a href="Mimir.html">Mímir</a>
+                            <a href="heimdall.html">Heimdall</a>
+                            <a href="Frigga.html">Frigga</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" onclick="toggleDropdown5()" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Other characters</a>
+                        <div class="dropdown-menu5">
+                            <a href="outros.html">Other characters</a>
+                            <a href="cobra.html">Jormungand</a>
+                            <a href="Ymir.html">Ymir</a>
+                            <a href="Audhumla.html">Audhumla</a>
+                            <a href="Fenrir.html">Fenrir</a>
+                            <a href="Nidhogg.html">Nidhogg</a>
+                            <a href="corvos.html">Huginn and Muninn</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link"  onclick="toggleDropdown6()" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Weapons</a>
+                        <div class="dropdown-menu6">
+                            <a href="armas.html">Weapons</a>
+                            <a href="mjonir.html">Mjonir</a>
+                            <a href="Laevateinn.html">Laevateinn</a>
+                            <a href="gram.html">Gram</a>
+                            <a href="hofund.html">Hofund</a>
+                            <a href="angurvadal.html">Angurvadal</a>
+                        </div>
+                    </div>
+                    <div class="nav-item"><a href="contato.html" class="nav-link" style="  color: #fff;
+                        text-decoration: none;
+                        font-weight: 400;">Contact</a></div>
+                </div>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <img src="menu_white_36dp.svg" alt="menu" class="icon">
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="vazio1">
+
+        </div>
+        <div id="texto">
+            <div id="bloco1">
+                <div id="parte1">
+                    <p id="sub">
+                        Other characters
+                    </p>
+                    <p id="linha">
+
+                    </p>
+                    <p id="tex">
+                        The other characters in Norse mythology play key roles in the richness and complexity of its pantheon. In addition to prominent figures like Thor, Odin, and Loki, there is a vast array of gods, goddesses, creatures, and mythical beings that contribute to the fabric of Norse mythology. Beings like Nidhogg, the serpent that gnaws at the roots of the Yggdrasil tree, and Huginn and Muninn, Odin's messenger ravens, bring depth to the understanding of Norse cosmology. These secondary characters, along with many others, contribute to the richness of Norse stories and legends, exploring themes of destiny, duality, and the complex interplay between gods, humans, and the natural world.
+                    </p>
+                </div>
+            </div>
+                <div id="bloco2">
+                    <div id="centro">
+                        <div id="meucarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="Ymir.html">
+                                        <img src="ymircarousel.webp" alt="Foto do Ymir">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="Audhumla.html">
+                                        <img src="audhumblacarousel.webp" alt="Foto da Audhumla">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="Fenrir.html">
+                                        <img src="fenrircarousel.webp" alt="Foto do Fenrir">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="Nidhogg.html">
+                                        <img src="Nidhoggcarousel.webp" alt="Foto da Nidhogg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="corvos.html">
+                                        <img src="corvoscarousel.webp" alt="Foto dos corvos">
+                                    </a>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#meucarousel"
+                                    data-bs-slide="prev">
+                                    <span class="fas fa-angle-left"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#meucarousel"
+                                    data-bs-slide="next">
+                                    <span class="fas fa-angle-right"></span>
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="vazio2">
+
+                </div>
+    </main>
+    <footer>
+        <div id="contato">
+            <h1>About us</h1>
+            <p>
+                This website was developed by Rikelme Sousa de Carvalho, a
+                systems development student at ETESP. The
+                website was made for the completion of the first
+                year of high school.
+            </p>
+
+            <div id="midia">
+                <a href="https://br.linkedin.com" target="_blank"><!--Ainda não tenho linkedin-->
+                    <img src="linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://github.com/RikelmeSousadeCarvalho" target="_blank">
+                    <img src="github.png" alt="GitHub">
+                </a>
+                <a href="https://twitter.com/r1kcarvalho" target="_blank">
+                    <img src="twitter.png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com/r1kcarvalho" target="_blank">
+                    <img src="instagram.png" alt="Instragram">
+                </a>
+            </div>
+        </div>
+
+        <div class="tema">
+            <h1>Contact</h1>
+            <a href="contato.html">
+                <p>
+                    CONTACT US!
+                </p>
+            </a>
+        </div>
+
+        <div class="tema">
+            <h1>Terms of use</h1>
+            <a href="contato.html">
+                <p>
+                    KNOW OUR TERMS!
+                </p>
+            </a>
+        </div>
+
+        <div class="tema">
+            <h1>Support</h1>
+            <a href="contato.html">
+                <p>
+                    TALK TO OUR SUPPORT!
+                </p>
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="corvos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="page-2-removebg-preview.png">
+    <meta name="author" content="Rikelme">
+    <meta name="description" content="Conheça a belíssima mitologia nórdica e seus principais Deuses">
+    <title>Norse mythology</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="iconcnt1.webp" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <div class="nav-list-pc">
+                    <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+                    <div class="nav-item"><a href="origem.html" class="nav-link">Origin</a></div>
+                    <div class="nav-item"><a href="ambient.html" class="nav-link">Worlds</a></div>
+                    <div class="nav-item"><a href="ragnarok.html" class="nav-link">Ragnarök</a></div>
+                    <div class="nav-item" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
+                        <a class="nav-link">Gods</a>
+                        <div class="dropdown-menu">
+                            <a href="deuses.html">Gods</a>
+                            <a href="thor.html">Thor</a>
+                            <a href="freya.html">Freya</a>
+                            <a href="loki.html">Loki</a>
+                            <a href="odin.html">Odin</a>
+                            <a href="tyr.html">Tyr</a>
+                            <a href="Frey.html">Frey</a>
+                            <a href="Baldur.html">Baldur</a>
+                            <a href="Mimir.html">Mímir</a>
+                            <a href="heimdall.html">Heimdall</a>
+                            <a href="Frigga.html">Frigga</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" onmouseover="showDropdown2()" onmouseout="hideDropdown2()" onclick="toggleDropdown2()">
+                        <a class="nav-link">Other characters</a>
+                        <div class="dropdown-menu2">
+                            <a href="outros.html">Other characters</a>
+                            <a href="cobra.html">Jormungand</a>
+                            <a href="Ymir.html">Ymir</a>
+                            <a href="Audhumla.html">Audhumla</a>
+                            <a href="Fenrir.html">Fenrir</a>
+                            <a href="Nidhogg.html">Nidhogg</a>
+                            <a href="corvos.html">Huginn and Muninn</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" onmouseover="showDropdown3()" onmouseout="hideDropdown3()" onclick="toggleDropdown3()">
+                        <a class="nav-link">Weapons</a>
+                            <div class="dropdown-menu3">
+                                <a href="armas.html">Weapons</a>
+                                <a href="mjonir.html">Mjonir</a>
+                                <a href="Laevateinn.html">Laevateinn</a>
+                                <a href="gram.html">Gram</a>
+                                <a href="hofund.html">Hofund</a>
+                                <a href="angurvadal.html">Angurvadal</a>
+                            </div>
+                    </div>
+                    <div class="nav-item"><a href="contato.html" class="nav-link">Contact</a></div>
+                </div>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="nav-list-pc">
+                    <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+                    <div class="nav-item"><a href="origem.html" class="nav-link">Origin</a></div>
+                    <div class="nav-item"><a href="ambient.html" class="nav-link">Worlds</a></div>
+                    <div class="nav-item"><a href="ragnarok.html" class="nav-link">Ragnarök</a></div>
+                    <div class="nav-item" >
+                        <a class="nav-link" onclick="toggleDropdown4()">Gods</a>
+                        <div class="dropdown-menu4">
+                            <a href="deuses.html">Gods</a>
+                            <a href="thor.html">Thor</a>
+                            <a href="freya.html">Freya</a>
+                            <a href="loki.html">Loki</a>
+                            <a href="odin.html">Odin</a>
+                            <a href="tyr.html">Tyr</a>
+                            <a href="Frey.html">Frey</a>
+                            <a href="Baldur.html">Baldur</a>
+                            <a href="Mimir.html">Mímir</a>
+                            <a href="heimdall.html">Heimdall</a>
+                            <a href="Frigga.html">Frigga</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" onclick="toggleDropdown5()">Other characters</a>
+                        <div class="dropdown-menu5">
+                            <a href="outros.html">Other characters</a>
+                            <a href="cobra.html">Jormungand</a>
+                            <a href="Ymir.html">Ymir</a>
+                            <a href="Audhumla.html">Audhumla</a>
+                            <a href="Fenrir.html">Fenrir</a>
+                            <a href="Nidhogg.html">Nidhogg</a>
+                            <a href="corvos.html">Huginn and Muninn</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link"  onclick="toggleDropdown6()">Weapons</a>
+                        <div class="dropdown-menu6">
+                            <a href="armas.html">Weapons</a>
+                            <a href="mjonir.html">Mjonir</a>
+                            <a href="Laevateinn.html">Laevateinn</a>
+                            <a href="gram.html">Gram</a>
+                            <a href="hofund.html">Hofund</a>
+                            <a href="angurvadal.html">Angurvadal</a>
+                        </div>
+                    </div>
+                    <div class="nav-item"><a href="contato.html" class="nav-link">Contact</a></div>
+                </div>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <img src="menu_white_36dp.svg" alt="menu" class="icon">
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="vazio1">
+
+        </div>
+        <div id="texto">
+            <div id="bloco1">
+                <div id="parte1">
+                    <p id="sub">
+
+                        Huginn and Muninn
+                    </p>
+                    <p id="linha">
+
+                    </p>
+                    <p id="tex">
+                        Huginn and Muninn are two iconic ravens in Norse mythology closely associated with Odin, the Allfather of the gods. Their names translate to "Thought" (Huginn) and "Memory" (Muninn). These intelligent and mysterious birds are Odin's constant companions, tasked with the unique duty of flying throughout the world of humans and the realms of the gods, gathering information and news. They return to Odin daily, perching on his shoulders and whispering into his ears, providing him with vital knowledge and insights from their travels. Huginn and Muninn symbolize Odin's wisdom and omniscience, as well as the importance of knowledge and communication in the Norse worldview. Their presence in the mythology underscores the idea that wisdom and information are among the most valuable assets in the pursuit of power and understanding.
+                    </p>
+                </div>
+                <div id="img1">
+                        <img src="corvos.webp" alt="foto dos corvos" title="Huginn and Muninn">
+                </div>
+            </div>
+        </div>
+        <div id="vazio2">
+
+        </div>
+    </main>
+    <footer>
+        <div id="contato">
+            <h1>About us</h1>
+            <p>
+                This website was developed by Rikelme Sousa de Carvalho, a
+                systems development student at ETESP. The
+                website was made for the completion of the first
+                year of high school.
+            </p>
+
+            <div id="midia">
+                <a href="https://br.linkedin.com" target="_blank"><!--Ainda não tenho linkedin-->
+                    <img src="linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://github.com/RikelmeSousadeCarvalho" target="_blank">
+                    <img src="github.png" alt="GitHub">
+                </a>
+                <a href="https://twitter.com/r1kcarvalho" target="_blank">
+                    <img src="twitter.png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com/r1kcarvalho" target="_blank">
+                    <img src="instagram.png" alt="Instragram">
+                </a>
+            </div>
+        </div>
+
+        <div class="tema">
+            <h1>Contact</h1>
+            <a href="contato.html">
+                <p>
+                    CONTACT US!
+                </p>
+            </a>
+        </div>
+
+        <div class="tema">
+            <h1>Terms of use</h1>
+            <a href="contato.html">
+                <p>
+                    KNOW OUR TERMS!
+                </p>
+            </a>
+        </div>
+
+        <div class="tema">
+            <h1>Support</h1>
+            <a href="contato.html">
+                <p>
+                    TALK TO OUR SUPPORT!
+                </p>
+            </a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

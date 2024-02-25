@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="origem.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="page-2-removebg-preview.png">
+    <meta name="author" content="Rikelme">
+    <meta name="description" content="Conheça a belíssima mitologia nórdica e seus principais Deuses">
+    <title>Norse mythology</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="iconcnt1.webp" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <div class="nav-list-pc">
+                    <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+                    <div class="nav-item"><a href="origem.html" class="nav-link">Origin</a></div>
+                    <div class="nav-item"><a href="ambient.html" class="nav-link">Worlds</a></div>
+                    <div class="nav-item"><a href="ragnarok.html" class="nav-link">Ragnarök</a></div>
+                    <div class="nav-item" onmouseover="showDropdown()" onmouseout="hideDropdown()"
+                        onclick="toggleDropdown()">
+                        <a class="nav-link">Gods</a>
+                        <div class="dropdown-menu">
+                            <a href="deuses.html">Gods</a>
+                            <a href="thor.html">Thor</a>
+                            <a href="freya.html">Freya</a>
+                            <a href="loki.html">Loki</a>
+                            <a href="odin.html">Odin</a>
+                            <a href="tyr.html">Tyr</a>
+                            <a href="Frey.html">Frey</a>
+                            <a href="Baldur.html">Baldur</a>
+                            <a href="Mimir.html">Mímir</a>
+                            <a href="heimdall.html">Heimdall</a>
+                            <a href="Frigga.html">Frigga</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" onmouseover="showDropdown2()" onmouseout="hideDropdown2()"
+                        onclick="toggleDropdown2()">
+                        <a class="nav-link">Other characters</a>
+                        <div class="dropdown-menu2">
+                            <a href="outros.html">Other characters</a>
+                            <a href="cobra.html">Jormungand</a>
+                            <a href="Ymir.html">Ymir</a>
+                            <a href="Audhumla.html">Audhumla</a>
+                            <a href="Fenrir.html">Fenrir</a>
+                            <a href="Nidhogg.html">Nidhogg</a>
+                            <a href="corvos.html">Huginn and Muninn</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" onmouseover="showDropdown3()" onmouseout="hideDropdown3()"
+                        onclick="toggleDropdown3()">
+                        <a class="nav-link">Weapons</a>
+                        <div class="dropdown-menu3">
+                            <a href="armas.html">Weapons</a>
+                            <a href="mjonir.html">Mjonir</a>
+                            <a href="Laevateinn.html">Laevateinn</a>
+                            <a href="gram.html">Gram</a>
+                            <a href="hofund.html">Hofund</a>
+                            <a href="angurvadal.html">Angurvadal</a>
+                        </div>
+                    </div>
+                    <div class="nav-item"><a href="contato.html" class="nav-link">Contact</a></div>
+                </div>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="nav-list-pc">
+                    <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+                    <div class="nav-item"><a href="origem.html" class="nav-link">Origin</a></div>
+                    <div class="nav-item"><a href="ambient.html" class="nav-link">Worlds</a></div>
+                    <div class="nav-item"><a href="ragnarok.html" class="nav-link">Ragnarök</a></div>
+                    <div class="nav-item">
+                        <a class="nav-link" onclick="toggleDropdown4()">Gods</a>
+                        <div class="dropdown-menu4">
+                            <a href="deuses.html">Gods</a>
+                            <a href="thor.html">Thor</a>
+                            <a href="freya.html">Freya</a>
+                            <a href="loki.html">Loki</a>
+                            <a href="odin.html">Odin</a>
+                            <a href="tyr.html">Tyr</a>
+                            <a href="Frey.html">Frey</a>
+                            <a href="Baldur.html">Baldur</a>
+                            <a href="Mimir.html">Mímir</a>
+                            <a href="heimdall.html">Heimdall</a>
+                            <a href="Frigga.html">Frigga</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" onclick="toggleDropdown5()">Other characters</a>
+                        <div class="dropdown-menu5">
+                            <a href="outros.html">Other characters</a>
+                            <a href="cobra.html">Jormungand</a>
+                            <a href="Ymir.html">Ymir</a>
+                            <a href="Audhumla.html">Audhumla</a>
+                            <a href="Fenrir.html">Fenrir</a>
+                            <a href="Nidhogg.html">Nidhogg</a>
+                            <a href="corvos.html">Huginn and Muninn</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" onclick="toggleDropdown6()">Weapons</a>
+                        <div class="dropdown-menu6">
+                            <a href="armas.html">Weapons</a>
+                            <a href="mjonir.html">Mjonir</a>
+                            <a href="Laevateinn.html">Laevateinn</a>
+                            <a href="gram.html">Gram</a>
+                            <a href="hofund.html">Hofund</a>
+                            <a href="angurvadal.html">Angurvadal</a>
+                        </div>
+                    </div>
+                    <div class="nav-item"><a href="contato.html" class="nav-link">Contact</a></div>
+                </div>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <img src="menu_white_36dp.svg" alt="menu" class="icon">
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="vazio1">
+
+        </div>
+        <div id="texto">
+            <div id="bloco1">
+                <div id="parte1">
+                    <p id="sub">
+                        Origin
+                    </p>
+                    <p id="linha">
+
+                    </p>
+                    <p class="tex">
+                        The Norse Mythology originated in the Nordic countries, also known as Scandinavians, and
+                        originated in Iceland.
+                        She tells that everything started with the division of two Kingdoms: Muspenhin, the Kingdom of
+                        fire and Nilfihin, the Kingdom of ice. The latter had a division, whose name is Ganagagap. In
+                        this division, the flames met the ice, and thus two beings appeared: <a
+                            href="Ymir.html">Ymir</a>, the hermaphrodite
+                        god, and also a giant cow called <a href="Audhumla.html">Audhumla</a>. This cow was feeding
+                        Ymir, and in order to feed
+                        itself, it licked the ice of the kingdom, taking advantage of the water and salt that were
+                        present there.
+                        In this process, where Audhumla licked the ice, during the 1st day she thawed a man's hair. On
+                        the 2nd day, she thawed a man's body and on the third day, she thawed this man's head.
+                        With this thawing, the first god in Norse mythology emerged: Búri. 
+                    </p>
+                </div>
+                <div id="img1">
+                    <div id="ft">
+                        <a href="Ymir.html">
+                            <img src="Ymir.jpg" title="Ymir" alt="foto do Ymir">
+                        </a>
+                    </div>
+                    <div id="entre">
+                        <p>
+                            Ymir
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="bloco2">
+                <div id="parte2">
+                    <p class="tex">
+                        Búri was the father of Borr,
+                        and he had 3 sons, whose names are: Vili, Vé and <a href="odin.html">Odin</a>.
+                        After a while, the three sons of Borr made a battle against Ymir to finish off the giants. They
+                        managed to win and with it came all things in the world.
+                        With the bones of Ymir the mountains were created, with the blood the oceans and the rivers were
+                        formed, with his teeth the rocks were formed, with his brain the clouds were created and from
+                        his hair, the trees and all the vegetation appeared.
+                    </p>
+                </div>
+                <div id="img2">
+                    <div id="ftdeus">
+                        <a href="Audhumla.html">
+                            <img src="audhumbla.jpg" alt="Foto da Audhumla">
+                        </a>
+                    </div>
+                    <div id="nada">
+                        <p>
+                            Audhumla
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="vazio2">
+
+        </div>
+    </main>
+    <footer>
+        <div id="contato">
+            <h1>About us</h1>
+            <p>
+                This website was developed by Rikelme Sousa de Carvalho, a
+                systems development student at ETESP. The
+                website was made for the completion of the first
+                year of high school.
+            </p>
+
+            <div id="midia">
+                <a href="https://br.linkedin.com" target="_blank"><!--Ainda não tenho linkedin-->
+                    <img src="linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://github.com/RikelmeSousadeCarvalho" target="_blank">
+                    <img src="github.png" alt="GitHub">
+                </a>
+                <a href="https://twitter.com/r1kcarvalho" target="_blank">
+                    <img src="twitter.png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com/r1kcarvalho" target="_blank">
+                    <img src="instagram.png" alt="Instragram">
+                </a>
+            </div>
+        </div>
+
+        <div class="tema">
+            <h1>Contact</h1>
+            <a href="contato.html">
+                <p>
+                    CONTACT US!
+                </p>
+            </a>
+        </div>
+
+        <div class="tema">
+            <h1>Terms of use</h1>
+            <a href="contato.html">
+                <p>
+                    KNOW OUR TERMS!
+                </p>
+            </a>
+        </div>
+
+        <div class="tema">
+            <h1>Support</h1>
+            <a href="contato.html">
+                <p>
+                    TALK TO OUR SUPPORT!
+                </p>
+            </a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
